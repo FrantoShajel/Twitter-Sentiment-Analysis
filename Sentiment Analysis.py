@@ -8,11 +8,11 @@ Created on Thu May 23 18:56:33 2019
 import tweepy
 from textblob import TextBlob
 
-api_key = '*API KEY from TWITTER'
-api_secret_key = 'API SECRET KEY from TWITTER'
+api_key = '*API KEY from TWITTER API'                           #Enter the API KEY from your Twitter app
+api_secret_key = 'API SECRET KEY from TWITTER API'              #Enter the API SECRET KEY from your Twitter app
 
-access_token = 'ACCESS TOKEN from TWITTER'
-access_token_secret = 'ACCESS TOKEN SECRET from TWITTER'
+access_token = 'ACCESS TOKEN from TWITTER API'                  #Enter the ACCESS TOKEN from your Twitter app
+access_token_secret = 'ACCESS TOKEN SECRET from TWITTER API'    #Enter the ACCESS TOKEN SECRET from your Twitter app
 
 auth = tweepy.OAuthHandler(api_key, api_secret_key)
 auth.set_access_token(access_token, access_token_secret)
